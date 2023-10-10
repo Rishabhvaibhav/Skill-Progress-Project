@@ -1,9 +1,10 @@
 def Calculator():
+    
     show_operator = ("Addition = +" , 
-                    "Subtract = -" ,
-                    "Multiply = *", 
-                    "Divide =   /" , 
-                    "Power =   **" )
+                     "Subtract = -" ,
+                     "Multiply = *" , 
+                     "Divide =   /" , 
+                     "Power =   **" )
     print(show_operator)
     print()
     operator = input("Enter the operators you want : ")
@@ -27,5 +28,7 @@ def Calculator():
             print("Invalid Entry ")
     except:
         print(TypeError)
-
+        
+        
+        
 Calculator()
