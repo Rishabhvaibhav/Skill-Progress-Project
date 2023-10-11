@@ -1,14 +1,17 @@
-n = 10
+count = 1
+while count < 5:
+    
+    fibo_input = int(input("enter the number count for fibonacchi sequence  : \n "))
 
-first = 0
-second = 1
+    first_number = 0
+    second_number = 1
 
-temp = 0
-# 0 1  1 2 3 5 8 13
-print(first,second,end = " ")
-for i in range(2,n):
-    temp = second + first
-    print(temp, end = " ")
-    first = second
-    second = temp
-print(temp)
+    temp = 0
+    print(first_number,second_number , end = " ")
+
+    for i in range (0,fibo_input):
+        temp = first_number + second_number
+        print(temp,end = " ")
+        first_number = second_number
+        second_number = temp
+        count += 1
