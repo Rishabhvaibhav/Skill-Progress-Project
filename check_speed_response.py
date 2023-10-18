@@ -3,7 +3,7 @@ import time
 import concurrent.futures
 
 # Download the proxy list
-url = "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"
+url = "https://raw.githubusercontent.com/Rishabhvaibhav/Skill-Progress-Project/main/Results/http.txt"
 response = requests.get(url)
 proxy_list = response.text.split("\n")
 
